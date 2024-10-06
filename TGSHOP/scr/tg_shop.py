@@ -4,7 +4,7 @@ from telegram import Update, ForceReply, InlineKeyboardButton, InlineKeyboardMar
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, CallbackQueryHandler
 
 # Задайте токен вашего бота здесь
-TOKEN = "7648650447:AAFRv9UsOxMgF_6Up5decdTu7U-RfVxn5Vg"  # Замените на ваш токен
+TOKEN = ""  # Замените на ваш токен
 
 # Настройка логирования
 logging.basicConfig(
@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Словарь для хранения товаров
 products = {}
 # ID администратора (замените на свой ID)
-ADMIN_ID = 5366701738
+ADMIN_ID = адмистраторы 
 banned_users = []  # Список забаненных пользователей
 
 # Состояние чата
