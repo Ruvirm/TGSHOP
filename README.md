@@ -6,20 +6,25 @@
   "admins": ["ID АДМИНА"],
   "chat_settings": {
     "allow_chat_between_users": true,
-    "chat_auto_close_timeout": 60,  // Время в минутах, через которое чат автоматически закроется
-    "send_notifications": true,  // Отправлять ли уведомления администраторам при покупках
-    "max_concurrent_chats": 5  // Максимальное количество одновременных чатов с одним продавцом
+    "chat_auto_close_timeout": 60,  // Время в минутах, после которого чат автоматически закрывается
+    "send_notifications": true,  // Отправлять уведомления администраторам при покупках
+    "max_concurrent_chats": 5  // Максимальное количество активных чатов с одним продавцом
   },
   "review_settings": {
-    "allow_reviews": true,  // Включение/выключение системы отзывов
+    "allow_reviews": true,  // Включение системы отзывов
     "max_review_length": 500,  // Максимальная длина отзыва
     "min_review_rating": 1,  // Минимальная оценка
     "max_review_rating": 5   // Максимальная оценка
   },
   "catalog_settings": {
-    "max_items_per_page": 5,  // Максимальное количество товаров на одну страницу каталога
-    "item_expiration_days": 30,  // Через сколько дней товар автоматически удаляется из каталога
-    "allow_item_editing": true  // Включить возможность редактирования товара после добавления
+    "max_items_per_page": 5,  // Максимальное количество товаров на странице каталога
+    "item_expiration_days": 30,  // Через сколько дней товар удаляется из каталога
+    "allow_item_editing": true,  // Разрешить редактирование товара после добавления
+    "allow_item_deletion": true  // Разрешить удаление товара
+  },
+  "registration_settings": {
+    "require_registration": true,  // Требовать регистрацию перед использованием бота
+    "registration_fields": ["username", "email", "phone_number"]  // Поля, требуемые при регистрации
   },
   "texts": {
     "start_message": "Добро пожаловать в магазин-бот!",
@@ -40,7 +45,9 @@
     "sale_completed": "Сделка завершена. Пожалуйста, оставьте отзыв о товаре '{name}'.",
     "send_review_request": "Оставьте ваш отзыв о товаре.",
     "review_received": "Ваш отзыв отправлен!",
-    "review_in_catalog": "Отзыв: {review}"
+    "review_in_catalog": "Отзыв: {review}",
+    "registration_request": "Пожалуйста, пройдите регистрацию перед началом работы.",
+    "registration_success": "Регистрация прошла успешно!"
   },
   "buttons": {
     "buy": "Купить",
@@ -49,7 +56,9 @@
     "sale_complete": "Завершить сделку",
     "leave_review": "Оставить отзыв",
     "send_review": "Отправить отзыв",
-    "edit_item": "Редактировать товар"
+    "edit_item": "Редактировать товар",
+    "delete_item": "Удалить товар",
+    "register": "Регистрация"
   }
 }
 ```
