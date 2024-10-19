@@ -1,0 +1,61 @@
+{
+  "bot_token": "7648650447:AAFRv9UsOxMgF_6Up5decdTu7U-RfVxn5Vg",
+  "admins": ["5366701738"],
+  "encoding": "utf-8",
+  "chat_settings": {
+    "allow_chat_between_users": true,
+    "chat_auto_close_timeout": 60,
+    "send_notifications": true,
+    "max_concurrent_chats": 5
+  },
+  "review_settings": {
+    "allow_reviews": true,
+    "max_review_length": 500,
+    "min_review_rating": 1,
+    "max_review_rating": 5
+  },
+  "catalog_settings": {
+    "max_items_per_page": 5,
+    "item_expiration_days": 30,
+    "allow_item_editing": true,
+    "allow_item_deletion": true
+  },
+  "registration_settings": {
+    "require_registration": false,
+    "registration_fields": ["username", "email", "phone_number"]
+  },
+  "texts": {
+    "start_message": "Добро пожаловать в магазин-бот!",
+    "catalog_empty": "Каталог пуст.",
+    "catalog_item_caption": "{name}\n{description}",
+    "new_item_photo_request": "Отправьте фото товара.",
+    "new_item_name_request": "Введите имя товара.",
+    "new_item_description_request": "Введите описание товара.",
+    "new_item_success": "Товар '{name}' успешно добавлен!",
+    "no_rights": "У вас нет прав для добавления товара.",
+    "search_query_empty": "Товар не найден.",
+    "buy_request_sent": "Запрос отправлен продавцу.",
+    "seller_accept_request": "Принять запрос?",
+    "chat_opened_buyer": "Продавец принял ваш запрос. Открылся чат для товара '{name}'.",
+    "chat_opened_seller": "Чат с покупателем открыт.",
+    "buy_item_request": "Пользователь {username} хочет купить '{name}'. Принять запрос?",
+    "chat_stopped": "Чат закрыт.",
+    "sale_completed": "Сделка завершена. Пожалуйста, оставьте отзыв о товаре '{name}'.",
+    "send_review_request": "Оставьте ваш отзыв о товаре.",
+    "review_received": "Ваш отзыв отправлен!",
+    "review_in_catalog": "Отзыв: {review}",
+    "registration_request": "Пожалуйста, пройдите регистрацию перед началом работы.",
+    "registration_success": "Регистрация прошла успешно!"
+  },
+  "buttons": {
+    "buy": "Купить",
+    "accept": "Принять",
+    "stop_chat": "Закрыть чат",
+    "sale_complete": "Завершить сделку",
+    "leave_review": "Оставить отзыв",
+    "send_review": "Отправить отзыв",
+    "edit_item": "Редактировать товар",
+    "delete_item": "Удалить товар",
+    "register": "Регистрация"
+  }
+}
