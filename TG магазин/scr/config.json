@@ -1,6 +1,6 @@
 {
-  "bot_token": "7648650447:AAFRv9UsOxMgF_6Up5decdTu7U-RfVxn5Vg",
-  "admins": ["5366701738"],
+  "bot_token": "",
+  "admins": [""],
   "encoding": "utf-8",
   "chat_settings": {
     "allow_chat_between_users": true,
